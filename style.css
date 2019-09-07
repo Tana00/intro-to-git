@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+header {
+    padding: 1rem ;
+}
+
+.navigation {
+    position: relative;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+#hamburger {
+    float: right;
+    position: absolute;
+    top: 15%;
+    left: 95%;
+}
+
+.list-item {
+    list-style: none;
+    float: right;
+    padding-right: 2rem;
+    
+}
+
+.btn-list {
+    text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+}
