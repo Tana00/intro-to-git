@@ -24,6 +24,11 @@ header {
     left: 95%;
 }
 
+ul {
+    margin-top: -2.5rem;
+    margin-right: 4rem;
+}
+
 .list-item {
     list-style: none;
     float: right;
