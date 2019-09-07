@@ -23,7 +23,7 @@ header {
     letter-spacing: .5rem;
 
 }
-
+/* 
 #hamburger {
     float: right;
     position: absolute;
@@ -31,7 +31,7 @@ header {
     left: 95%;
     cursor: pointer;
 
-}
+} */
 
 ul {
     margin-top: -2.5rem;
