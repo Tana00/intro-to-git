@@ -2,6 +2,9 @@ body {
     padding: 0;
     margin: 0;
     font-size: 62.5%;
+    background: #200f21;
+    font-family: Lato;
+    position: relative;
 }
 
 header {
@@ -15,14 +18,19 @@ header {
 .icon {
     font-size: 1.5rem;
     color: #777;
+    cursor: pointer;
+    color: white;
+    letter-spacing: .5rem;
+
 }
 
 #hamburger {
     float: right;
     position: absolute;
-    top: 15%;
+    top: 45%;
     left: 95%;
-    background-color: gold;
+    cursor: pointer;
+
 }
 
 ul {
@@ -39,8 +47,40 @@ ul {
 
 .btn-list {
     text-decoration: none;
+    font-size: 1.3rem;
+    color: #777;
+    cursor: pointer;
+
+
+}
+
+.list-item:hover {
+    transform: scale(1.1) ;
+    transition: all 1s ease-in-out;
+
+}
+
+.btn-list:hover {
+
 }
 
 .btn {
   text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 20%;
+  transform: translate(-50%,-50%);
+  padding: 1.5rem 3.5rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+    letter-spacing: .5rem;
+
+
+}
+
+.btn:hover {
+    background: #9cf196;
+    color: #fff;
 }
